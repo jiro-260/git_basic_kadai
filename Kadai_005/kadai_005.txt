@@ -1,0 +1,43 @@
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai>
+ mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\3110j\OneDrive\デスクト
+    ップ\git-samurai
+
+
+Mode                 LastWriteTime         Length N
+                                                  a
+                                                  m
+                                                  e
+----                 -------------         ------ -
+d-----        2025/06/03     14:09                g
+                                                  i
+                                                  t
+                                                  _
+                                                  c
+                                                  h
+                                                  a
+                                                  l
+                                                  l
+                                                  e
+                                                  n 
+                                                  g 
+                                                  e 
+
+
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/3110j/OneDrive/デスクトップ/git-samurai/git_challenge/.git/
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git add hello_world.txt
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) b6c8761] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git add hello_world.txt
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git commit -m "2回目のコミット"
+[main 430d053] 2回目のコミット
+ 1 file changed, 1 insertion(+)
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge> git log --oneline
+430d053 (HEAD -> main) 2回目のコミット
+b6c8761 1回目のコミット
+PS C:\Users\3110j\OneDrive\デスクトップ\git-samurai\git_challenge>
